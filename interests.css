@@ -1,0 +1,168 @@
+html {
+    height: 100%;
+}
+
+body {
+    margin: 0px;
+    position: relative;
+    min-height: 100%;
+}
+.button0 {
+    background-color: rgb(40, 221, 117);
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    height: 25px;
+    width: 100px;
+    border-radius: 5px;
+    transition: background-color 1s;
+}
+
+.button1 {
+    background-color: rgb(5, 233, 226);
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    height: 25px;
+    width: 100px;
+    border-radius: 5px;
+    margin-left: 10px;
+    transition: background-color 1s;
+}
+
+.button0:hover{
+    background-color: rgb(23, 182, 96);
+}
+
+.button2 {
+    background-color: rgb(170, 20, 189);
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    margin-left: 10px;
+    height: 25px;
+    width: 100px;
+    border-radius: 5px;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+    transition: background-color 1s;
+}
+
+.button1:hover{
+    background-color: rgb(20, 148, 182);
+}
+
+.button3 {
+    background-color: rgb(229, 255, 25);
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    height: 25px;
+    width: 100px;
+    border-radius: 5px;
+    margin-left: 10px;
+    transition: background-color 1s;
+}
+
+.button3:hover{
+    background-color: rgb(247, 93, 6);
+}
+
+.white {
+    color: white;
+    text-decoration: none;
+}
+
+img {
+    margin: auto;
+    display: block;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+#navbar {
+    margin: auto;
+    width: 700px;
+}
+
+header {
+    background-color: black;
+    text-align: center;
+    font-size: 30px;
+}
+
+h1 {
+    color: white;
+    margin-top: 0px;
+    margin-bottom: 30px;
+    font-family: "Georgia",serif;
+}
+
+footer {
+    position: absolute;
+    bottom: 10px;
+    left: 0px;
+    right: 0px;
+    clear: both;
+    color: grey;
+    text-align: center;
+}
+
+#image {
+    margin: auto;
+    padding-top: 30px;
+    width: 700px;
+}
+
+.box, .box img, .box p, .boxx, .boxx p, .boxx img, .boxxx, .boxxx p, .boxxx img {
+    position: relative;
+    text-align: center;
+    transition: opacity 1s;
+}
+
+.box:hover img, .boxx:hover img, .boxxx:hover img{
+    opacity: 0.3;
+}
+
+.box:hover p, .boxx:hover p, .boxxx:hover p{
+    opacity: 1;
+}
+
+.box p {
+    font-size: 400%;
+    position: absolute;
+    width: 100%;
+    top: 145px;
+    opacity: 0;
+}
+
+.boxx p {
+    font-size: 400%;
+    position: absolute;
+    width: 100%;
+    top: 95px;
+    opacity: 0;
+}
+
+.boxxx p {
+    font-size: 400%;
+    position: absolute;
+    width: 100%;
+    top: 130px;
+    opacity: 0;
+}
